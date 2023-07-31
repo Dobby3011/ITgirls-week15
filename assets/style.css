@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url('https://www.incom.ru/upload/iblock/19a/Depositphotos_300929386_l_2015.jpg') no-repeat center center;
+    min-height: 100%;
+    background-size: cover;
+}
+
+.box {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    margin-left: 10rem;
+
+}
+
+.temp,
+.max,
+.min {
+    font-size: 2rem;
+    padding: 1rem;
+
+}
+
+.max,
+.min {
+    font-weight: bold;
+}
